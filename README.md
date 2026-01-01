@@ -1,4 +1,4 @@
-# AI Agent
+# AI Search Agent
 
 This is a simple command-line AI agent that answers your queries by searching the internet, summarizing the content, and providing the sources.
 
