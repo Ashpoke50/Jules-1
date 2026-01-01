@@ -16,24 +16,14 @@ This is a simple command-line AI agent that answers your queries by searching th
 
     This project uses the Google Gemini API to generate summaries. You will need to get an API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
 
-    Once you have your key, you need to set it as an environment variable.
+    Once you have your key, you need to add it to the `.env` file.
 
-    *   **On macOS/Linux:**
-        ```bash
-        export GOOGLE_API_KEY='YOUR_API_KEY'
-        ```
+    1.  Make a copy of the `.env.example` file and rename it to `.env`.
+    2.  Open the `.env` file and replace `YOUR_API_KEY_HERE` with your actual API key.
 
-    *   **On Windows (Command Prompt):**
-        ```bash
-        set GOOGLE_API_KEY=YOUR_API_KEY
-        ```
-
-    *   **On Windows (PowerShell):**
-        ```powershell
-        $env:GOOGLE_API_KEY="YOUR_API_KEY"
-        ```
-
-    Replace `YOUR_API_KEY` with the actual key you obtained.
+    ```
+    GOOGLE_API_KEY='YOUR_API_KEY_HERE'
+    ```
 
 ## How to Run
 

@@ -3,6 +3,9 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import google.generativeai as genai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def search_web(query, num_results=5):
     """
