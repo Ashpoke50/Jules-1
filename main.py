@@ -2,7 +2,7 @@ from ddgs import DDGS
 import requests
 from bs4 import BeautifulSoup
 import os
-import google.generativeai as genai
+import google.genai as genai
 from dotenv import load_dotenv
 
 load_dotenv()
